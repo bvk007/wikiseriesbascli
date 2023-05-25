@@ -45,7 +45,7 @@ setup(
                    'console_scripts': [
                        # enable this to automatically generate a script in /usr/local/bin called myscript that points to your
                        #  wikiseriesbascli.wikiseriesbascli:main method
-                       # 'myscript = wikiseriesbascli.wikiseriesbascli:main'
+                       'wiki-series = wikiseriesbascli.wikiseriesbascli:main'
                    ]},
     classifiers=[
         'Development Status :: 3 - Alpha',
